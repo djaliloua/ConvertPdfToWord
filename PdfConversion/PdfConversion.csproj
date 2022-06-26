@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
+    <ApplicationIcon>315274_document_pdf_file_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="315274_document_pdf_file_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sautinsoft.pdffocus" Version="8.4.5.25" />
+    <PackageReference Include="Spire.PDF" Version="8.5.0" />
+  </ItemGroup>
+
+</Project>
